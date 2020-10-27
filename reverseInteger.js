@@ -1,0 +1,5 @@
+// Reverse a set of integers. Retain negative value if one exists.
+
+var reverse = function (x) {
+	return parseFloat(x.toString().split('').reverse().join('')) * Math.sign(x);
+};
